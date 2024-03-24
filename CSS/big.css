@@ -13,6 +13,7 @@
             display: flex;
             width: 720px;
             height: 1520px;
+            scale: 0.5;
         }
     }
     
