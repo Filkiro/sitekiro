@@ -4,12 +4,11 @@
 }
 @media (orientation: portrait) { 
     body {
-                    flex-direction: column;
-            display: flex;
-            width: 480px;
-            height: 1520px;
-            scale: 0.5;
-        text-align: start;
+        flex-direction: column;
+        display: flex;
+        width: 480px;
+        height: 1520px;
+        scale: 0.5;
         float: inline-start;
     }
     } 
@@ -32,6 +31,8 @@ html{
 body{
     background-color: #0f1418;
     font-family: 'Josefin Sans';
+    width: 720px;
+    height: 1520px;
 }
 #esq{
     text-align: center;
@@ -39,8 +40,8 @@ body{
     top: 0px;
 
     color: rgb(255, 255, 255);
-    width: 720px;
-    height: 1520px;
+    width: auto;
+    height: auto;
     border-right: 5px ;
     border-color: rgb(163, 163, 163);
     padding: 10px 16px 10px 12px;
@@ -84,7 +85,7 @@ h1{
     
     height: 100px;
     width: 300px;
-    top: 19px;
+    top: 480px;
     text-align: center;
     left: 250px;
     position: relative;
@@ -121,7 +122,7 @@ footer{
 details{
     position: relative;
     left: -350px;
-    top: 670px;
+    top: 1100px;
 }
 
 summary{
