@@ -4,7 +4,11 @@
 }
 @media (orientation: portrait) { 
     body {
-        flex-direction: column;
+                    flex-direction: column;
+            display: flex;
+            width: 480px;
+            height: 1520px;
+            scale: 0.5;
     }
     } 
     @media screen and (device-aspect-ratio: 16/9) { 
