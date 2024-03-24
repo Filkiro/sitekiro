@@ -10,12 +10,32 @@
     }
   }
      
-  @media only screen and (max-width: 480px) {
-    body {
-      width: 100%;
-      height: auto;
-    }
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    height: auto;
   }
+  #esq {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: auto;
+  }
+  main {
+    width: 100%;
+    height: auto;
+  }
+  #dirt {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+}
     
 
 html{
