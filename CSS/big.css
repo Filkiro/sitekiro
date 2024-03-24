@@ -4,9 +4,9 @@
 }
 @media only screen and (orientation: portrait) {
     body {
-      width: 480px;
+      width: 720px;
       height: 1520px;
-      scale: 0.5;
+      scale: 1;
     }
   }
      
