@@ -11,7 +11,7 @@
         body{
             flex-direction: column;
             display: flex;
-            width: 720px;
+            width: 480px;
             height: 1520px;
             scale: 0.5;
         }
@@ -26,7 +26,6 @@ html{
 body{
     background-color: #0f1418;
     font-family: 'Josefin Sans';
-    display: flex;
 }
 #esq{
     text-align: center;
