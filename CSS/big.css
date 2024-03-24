@@ -13,6 +13,7 @@
 html{
     width: 850px;
     height: 1520px;
+    scale: 0.3;
 }
 
 body{
