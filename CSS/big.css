@@ -11,8 +11,8 @@
     
 
 html{
-    width: 1080px;
-    height: 1920px;
+    width: 720px;
+    height: 1520px;
 }
 
 body{
@@ -22,12 +22,12 @@ body{
 }
 #esq{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     top: 0px;
 
     color: rgb(255, 255, 255);
-    width: 1080px;
-    height: 1920px;
+    width: 720px;
+    height: 1520px;
     border-right: 5px ;
     border-color: rgb(163, 163, 163);
     padding: 10px 16px 10px 12px;
@@ -71,9 +71,9 @@ h1{
     
     height: 100px;
     width: 300px;
-    top: 0px;
+    top: 19px;
     text-align: center;
-    left: 395px;
+    left: 250px;
     position: relative;
 }
 #dirt img{
@@ -107,8 +107,8 @@ footer{
 /*um accordion*/
 details{
     position: relative;
-    right: 100px;
-    top: 500px;
+    left: -350px;
+    top: 670px;
 }
 
 summary{
@@ -120,7 +120,7 @@ summary{
     top: 470px;
     position: relative;
     top: -10px;
-    right: 100px;
+    left: -20px;
     
     /*Efeito gradiente*/
     background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
