@@ -2,10 +2,23 @@
     font-family: 'Josefin Sans';
     src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
 }
+@media (orientation: portrait) { 
+    body {
+        flex-direction: column;
+    }
+    } 
+    
+    
+
+html{
+    width: 1080px;
+    height: 1920px;
+}
 
 body{
     background-color: #0f1418;
     font-family: 'Josefin Sans';
+
 }
 #esq{
     text-align: center;
@@ -13,8 +26,8 @@ body{
     top: 0px;
 
     color: rgb(255, 255, 255);
-    width: 1300px;
-    height: 9000px;
+    width: 1080px;
+    height: 1920px;
     border-right: 5px ;
     border-color: rgb(163, 163, 163);
     padding: 10px 16px 10px 12px;
@@ -60,7 +73,7 @@ h1{
     width: 300px;
     top: 0px;
     text-align: center;
-    left: 495px;
+    left: 395px;
     position: relative;
 }
 #dirt img{
@@ -107,7 +120,7 @@ summary{
     top: 470px;
     position: relative;
     top: -10px;
-    right: 20px;
+    right: 100px;
     
     /*Efeito gradiente*/
     background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
