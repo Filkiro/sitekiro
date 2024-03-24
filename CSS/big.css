@@ -10,6 +10,7 @@
             height: 1520px;
             scale: 0.5;
         text-align: start;
+        float: inline-start;
     }
     } 
     @media screen and (device-aspect-ratio: 16/9) { 
