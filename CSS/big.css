@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #0f1418;
+    font-family: 'Josefin Sans';
+}
+#esq{
+    text-align: center;
+    font-size: 20px;
+    top: 0px;
+
+    color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 9000px;
+    border-right: 5px ;
+    border-color: rgb(163, 163, 163);
+    padding: 10px 16px 10px 12px;
+    
+
+}
+#esq #name{
+    color: #a7bdc8;
+    font-size: 30px;
+}
+#esq img{
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+}
+header{
+    width: 300px;
+    height: 650px;
+}
+main{
+    position: relative;
+    top: -650px;
+    left: 370px;
+    width: 800px;
+    height: auto;
+    
+}
+main p{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    left: 30px;
+    position: relative;
+    color: white;
+    text-align: center
+}
+#dirt{
+    border-left: 5px ;
+    
+    height: 100px;
+    width: 300px;
+    top: 0px;
+    text-align: center;
+    left: 495px;
+    position: relative;
+}
+#dirt img{
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: inline-end;
+    right: -6px;
+    position: relative;
+}
+footer{
+    width: auto;
+    height: auto;
+}
+.rs{
+    border: 3px solid;
+    border-color: rgb(61, 58, 58);
+    border-radius: 14px;
+    padding: 7px 7px 7px 7px;
+    margin: 10px 0px 20px 0px;
+}
+.rs:hover{
+    border-color: rgba(177, 177, 177, 0.425);
+    background-color: rgba(177, 177, 177, 0.425);
+    transition: 0.5s;
+}
+#data{
+    text-align: center;
+}
+
+/*um accordion*/
+details{
+    position: relative;
+    right: 100px;
+    top: 500px;
+}
+
+summary{
+    border: 3px solid;
+    border-color: #0f1418;
+    border-radius: 30px;
+    list-style: none;
+    background-color: rgb(19, 24, 32);
+    top: 470px;
+    position: relative;
+    top: -10px;
+    right: 20px;
+    
+    /*Efeito gradiente*/
+    background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
+
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+}
+summary::-webkit-details-marker {
+    display: none;
+ }
+ summary:before {
+    content: "+";
+    font-size: 50px;
+
+    margin: 10px 27px;
+    padding: 0;
+    width: 20px;
+    
+    display: flex;
+    float: inline-end;
+
+ }
+ 
+ details[open] summary:before {
+   content: "-";
+    position: relative;
+    display: flex;
+    
+ }
