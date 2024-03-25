@@ -9,7 +9,14 @@
       scale: 1;
     }
   }
-     
+@media only screen and (resulution-max: 300dpi) {
+    Html {
+      width: 480px;
+      height: 960px;
+      scale: 1;
+    }
+}
+
 @media only screen and (max-width: 480px) {
   body {
     width: 20%;
