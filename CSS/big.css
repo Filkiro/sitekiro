@@ -12,8 +12,8 @@
      
 @media only screen and (max-width: 720px) {
   body {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
   #esq {
     width: 100%;
