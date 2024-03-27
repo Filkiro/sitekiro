@@ -1,3 +1,4 @@
+@media (orientation: landscape){
 @font-face {
     font-family: 'Josefin Sans';
     src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
@@ -87,4 +88,100 @@ h2{
     text-align: center;
 }
 
-
+}
+@media (orientation: portrait){
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
+    }
+    /*Código para o scrollbar*/
+    ::-webkit-scrollbar{
+        width: 10px;
+        
+    }
+    ::-webkit-scrollbar-track{
+        
+        border-radius: px;
+        background: #172027;
+        
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #2e2f4d;
+        border-radius: 8px; 
+    }
+    
+    
+    body{
+        background-image: linear-gradient(to right, #0f1418, #182833, #031627);
+        font-family: 'Josefin Sans';
+    }
+    header{
+        font-size: 20px;
+        text-align: center;
+        color: #a7bdc8;
+    }
+    header h1{
+        top: 10px;
+        position: relative;
+    }
+    header hr{
+        border: 2px solid;
+        color: gray;
+    }
+    p{
+        color: white;
+        font-size: 24px;
+        margin: 30px;
+    }
+    header mark{
+        background-color:   rgba(255, 255, 255, 0.521);
+        border-radius: 4px;
+        border: 0px solid rgba(255, 255, 255, 0);
+        margin: 10px 10px 10px 10px;
+    }
+    main mark{
+        background-color:   rgba(255, 255, 255, 0.678);
+        border-radius: 4px;
+    }
+    header a{
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        position: relative;
+        font-size: 22px;
+        margin: 0px 10px 10px 10px;
+        color: white;
+        
+        padding: 6px 5px 0px 6px;
+        border-radius:  30px;
+        
+        transition: 0.4s;
+    }
+    header a:hover{
+        color: black;
+        transition: 0.4s;
+    }
+    
+    table{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 50% !important;margin: auto;
+        border-collapse: collapse;
+    }
+    table tr{
+        margin: 5px 5px 5px 5px;
+    }
+    h2{
+        font-size: 35px;
+        color: white;
+        text-align: center;
+    }
+    #ts{
+        font-size: 29px;
+        color: white;
+        text-align: center;
+    }
+    
+    }
+    
