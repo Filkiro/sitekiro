@@ -2,6 +2,7 @@
     font-family: 'Josefin Sans';
     src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
 }
+@media (orientation: landscape){
 /*Código para o scrollbar*/
 ::-webkit-scrollbar{
     width: 10px;
@@ -19,7 +20,7 @@
     
 }
 body{
-    background-image: linear-gradient(to right, #0f1418, #182833, #031627);
+    background-color: #161e24;
     
     font-family: 'Josefin Sans';
 }
@@ -162,4 +163,262 @@ details a:hover{
     transition: 0.3s;
     border-color: white;
 }
+}
 
+
+    
+
+@media (orientation: portrait){
+    body{
+        background: no-repeat;
+        font-family: 'Josefin Sans';
+        text-align: center;
+        color: white;
+        /*background-image: linear-gradient(to right, #0f1418, #182833, #031627)*/
+        background-color: #161e24;
+      }
+      
+      header img{
+        border-radius: 200px;
+        height: 180px;
+        width: 180px;
+      }
+      
+      nav img{
+        height: 30px;
+        width: 30px;
+      }
+      
+      summary{
+        font-size: 10px;
+        
+      
+        border: 3px solid;
+        border-color: #0f1418;
+        border-radius: 30px;
+        list-style: none;
+        background-color: rgb(19, 24, 32);
+      
+        /*Efeito gradiente*/
+        background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
+      
+        cursor: pointer;
+        margin: 10px 10px 10px 10px;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary:before {
+        content: "+";
+        font-size: 27px;
+      
+        margin: 10px 2px;
+        padding: 0;
+        width: 20px;
+        
+        display: flex;
+        float: inline-end;
+      
+      }
+      
+      details[open] summary:before {
+       content: "-";
+       font-size: 40px;
+       top: -10px;
+      
+       position: relative;
+      
+      }
+      details a{
+        color: white;
+        background-color: black;
+        border-radius: 6px;
+        border: 1px solid black;
+        transition: 0.3s;
+      }
+      details a:hover{
+        color: black;
+        background-color: white;
+        transition: 0.3s;
+        border-color: white;
+      }
+      
+      details p{
+        margin: 10px 20px 10px 15px;
+        text-align: justify;
+      }
+      #htm p{
+        margin: 10px 20px 10px 20px;
+      }
+      details .data{
+        text-align: center;
+      }
+      }
+
+      @media (orientation: landscape) and (max-width: 1024px){
+        /*Código para o scrollbar*/
+        ::-webkit-scrollbar{
+            width: 10px;
+            
+        }
+        ::-webkit-scrollbar-track{
+            
+            border-radius: px;
+            background: #172027;
+            
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #2e2f4d;
+            border-radius: 8px; 
+            
+        }
+        body{
+            background-color: #161e24;
+            
+            font-family: 'Josefin Sans';
+        }
+        #esq{
+            text-align: center;
+            font-size: 20px;
+            top: 0px;
+        
+            color: rgb(255, 255, 255);
+            width: 250px;
+            height: 4000px;
+            border-right: 5px solid;
+            border-color: rgb(163, 163, 163);
+            padding: 10px 16px 10px 12px;
+            position: fixed;
+        
+        }
+        #esq #name{
+            color: #a7bdc8;
+            font-size: 30px;
+        }
+        #esq img{
+            top: 15px;
+            position: relative;
+            text-align: center;
+            height: 180px;
+            width: 180px;
+            border-radius: 100px;
+        }
+        header{
+            width: 300px;
+            height: auto;
+        }
+        main{
+            position: relative;
+            margin: 30px;
+            left: 370px;
+            width: 800px;
+            height: auto;
+            
+        }
+        main p{
+            color: white;
+            font-size: 25px;
+            margin: 25px 25px 25px 25px;
+        }
+        h1{
+            left: 30px;
+            position: relative;
+            color: white;
+            text-align: center
+        }
+        #dirt{
+            border-left: 5px solid;
+            border-color: rgb(163, 163, 163);
+            height: 4000px;
+            width: 70px;
+            top: 0px;
+            position: fixed;
+            right: 15px;
+            
+        }
+        #dirt img{
+            text-align: center;
+            width: 48px;
+            height: 48px;
+            float: inline-end;
+            right: -6px;
+            position: relative;
+        }
+        nav{
+            float: inline-end;
+        }
+        .rs{
+            border: 3px solid;
+            border-color: rgb(61, 58, 58);
+            border-radius: 14px;
+            padding: 7px 7px 7px 7px;
+            margin: 10px 0px 20px 0px;
+        }
+        .rs:hover{
+            border-color: rgba(177, 177, 177, 0.425);
+            background-color: rgba(177, 177, 177, 0.425);
+            transition: 0.5s;
+        }
+        .data{
+            text-align: center;
+        }
+        
+        /*um accordion*/
+        summary{
+            right: 0px;
+            position: relative;
+            border: 3px solid;
+            border-color: #0f1418;
+            border-radius: 30px;
+            list-style: none;
+            background-color: rgb(19, 24, 32);
+        
+            /*Efeito gradiente*/
+            background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
+        
+            cursor: pointer;
+            margin: 10px 10px 10px 10px;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+         }
+         summary:before {
+            content: "+";
+            font-size: 50px;
+        
+            margin: 10px 27px;
+            padding: 0;
+            width: 20px;
+            
+            display: flex;
+            float: inline-end;
+        
+         }
+         
+         details[open] summary:before {
+           content: "-";
+           font-size: 70px;
+           top: -10px;
+        
+           position: relative;
+        
+         }
+         details{
+            right: 100px;
+            position: relative;
+         }
+        details a{
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid black;
+            transition: 0.3s;
+        }
+        details a:hover{
+            color: black;
+            background-color: white;
+            transition: 0.3s;
+            border-color: white;
+        }
+        }
+        
