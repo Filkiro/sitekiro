@@ -2,9 +2,25 @@
     font-family: 'Josefin Sans';
     src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
 }
-
+/*Código para o scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track{
+    
+    border-radius: px;
+    background: #172027;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #2e2f4d;
+    border-radius: 8px; 
+    
+}
 body{
-    background-color: #0f1418;
+    background-image: linear-gradient(to right, #0f1418, #182833, #031627);
+    
     font-family: 'Josefin Sans';
 }
 #esq{
@@ -14,8 +30,8 @@ body{
 
     color: rgb(255, 255, 255);
     width: 250px;
-    height: 9000px;
-    border-right: 5px ridge;
+    height: 4000px;
+    border-right: 5px solid;
     border-color: rgb(163, 163, 163);
     padding: 10px 16px 10px 12px;
     position: fixed;
@@ -26,6 +42,8 @@ body{
     font-size: 30px;
 }
 #esq img{
+    top: 15px;
+    position: relative;
     text-align: center;
     height: 180px;
     width: 180px;
@@ -33,11 +51,11 @@ body{
 }
 header{
     width: 300px;
-    height: 650px;
+    height: auto;
 }
 main{
     position: relative;
-    top: -650px;
+    margin: 30px;
     left: 370px;
     width: 800px;
     height: auto;
@@ -46,6 +64,7 @@ main{
 main p{
     color: white;
     font-size: 25px;
+    margin: 25px 25px 25px 25px;
 }
 h1{
     left: 30px;
@@ -54,13 +73,14 @@ h1{
     text-align: center
 }
 #dirt{
-    border-left: 5px ridge;
+    border-left: 5px solid;
     border-color: rgb(163, 163, 163);
-    height: 9000px;
+    height: 4000px;
     width: 70px;
     top: 0px;
     position: fixed;
     right: 15px;
+    
 }
 #dirt img{
     text-align: center;
@@ -85,12 +105,14 @@ nav{
     background-color: rgba(177, 177, 177, 0.425);
     transition: 0.5s;
 }
-#data{
+.data{
     text-align: center;
 }
 
 /*um accordion*/
 summary{
+    right: 10px;
+    position: relative;
     border: 3px solid;
     border-color: #0f1418;
     border-radius: 30px;
@@ -121,5 +143,23 @@ summary::-webkit-details-marker {
  
  details[open] summary:before {
    content: "-";
+   font-size: 70px;
+   top: -10px;
+
+   position: relative;
 
  }
+details a{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+details a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+    border-color: white;
+}
+
