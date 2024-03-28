@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS, como usar?</title>
+    <link rel="stylesheet" href="../CSS/txtcss.css">
+</head>
+<body>
+    <header>
+        <h1>CSS, como usar?</h1>
+        <a href="../index.html">Voltar</a>
+        <p><mark>LEMBRE-SE: Este site é somente anotações de um estudante</mark></p>
+        <hr>
+    </header>
+    <main>
+        <p>Se HTML é o corpo do site, CSS é as roupas, CSS cria a estilização do site, ou seja, deixa ele mais bonito. A codificação do CSS não é tão complicada, mas tem bastante coisa para se ver. CSS contém diversos códigos para a estilização, ajuste de resolução de imagem/site e enfim, tem bastante coisa a se ver. Ao contrario do HTML, você não precisa colocar um comando inicial, mas deve colocar um comando dentro do head no HTML, <mark>&lt;link rel="stylesheet" href="Diretório de seu CSS"&gt;</mark>, assim você estará conectando seu HTML ao CSS e poderá criar sua estilização.</p>
+        
+        <p>O CSS se baseia com as tags, id's e class's, isso porque você necessita identificar para o navegador o que é que você está mexendo e em qual parte que você está mexendo.</p> 
+        
+        <p>EX: <mark>body{color: white; font-size: 20px; font-family: "Josefin Sans"; background-color: #161e24;}</mark></p>
+
+        <p>No exemplo acima, temos determinado a tag do &lt;body&gt; a cor branca para as letras, afinal o comando é <i>color: white</i>, 20px de tamanho da fonte, afinal o comando é <i>font-size: 20px</i>, o tipo da fonte é Josefin Sans, afinal o comando é <i>font-family: "Josefin Sans"</i> e a cor de fundo é um hexadecimal, que será abordado na lista dos comandos.</p>
+        <p>A partir deste exemplo é possível ter uma noção do que fazer. A estrutura do CSS depende dessas tags, id's ou class's, sempre que você querer modificar algo do HTML, você deverá indicar ou sua tag, ou sua id, ou sua class.</p>
+
+        <p>Exemplo com Tag: <mark>h1{...}</mark></p>
+        <p>Exemplo com Id: <mark>#titulo{...}</mark></p>
+        <p>Exemplo com Class: <mark>.titulo{...}</mark></p>
+
+        <p>Com os exemplos acima da para ter uma noção sobre a estrutura base, existem uma diferença para determinar a Id e a Class, a Id sempre irá usar "#" no inicio para determinar que é uma Id no CSS, e o Class sempre usará "." no inicio para determinar que é uma class. Um detalhe bom a se colocar é a diferença entre os dois, Id só pode se usar uma vez, quanto a Class pode ser usada varias vezes, por exemplo se eu determinar uma class "texto" para todos os &lt;p&gt;, no CSS você só irá precisar usar o ".texto" somente uma vez para a estilização do &lt;p&gt;.</p>
+        <hr>
+        <h2>Vamos para uma tabelinha com alguns comandos básicos:</h2>
+
+        <table border="1" width="680px">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Função</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>Define o tamanho da fonte</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>"Familia" da fonte ou o tipo dela</td>
+                </tr>
+                <tr>
+                    <td>text-decoration</td>
+                    <td>Serve para adicionar ou retirar uma decoração do texto</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>Define a orientação do texto, se ele fica no centro, na esquerda, direita e etc.</td>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>Este comando define a cor da letra</td>
+                </tr>
+                <tr>
+                    <td>backgroud-color</td>
+                    <td>Define a cor de fundo do site</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>Define o tamanho da margem. Utiliza-se 4 números para formar ele, EX: <i>margin: 10px 10px 10px 10px;</i>, cada valor representa a localidade onde a margem irá ficar, o 1° valor é em cima do objeto, o 2° é a direta, o 3° é embaixo e o 4° é a esquerda</td>
+                </tr>
+                <tr>
+                    <td>padding</td>
+                    <td>Mesma estrutura do margin, entretanto, ele faz uma margem <b>dentro</b> do objeto.</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>Cria uma borda em volta de seu objeto. Exemplo de Sintaxe: <i>border: 10px solid</i>.</td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>Cria um arredondamento nos cantos do <i>border</i>;</td>
+                </tr>
+                <tr>
+                    <td>border-color</td>
+                    <td>Define a cor da borda</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>Mexe com a Largura</td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>Mexe com a Altura</td>
+                </tr>
+                <tr>
+                    <td>left</td>
+                    <td>Desloca o objeto para a esquerda. Necessita de um outro comando específico para seu funcionamento</td>
+                </tr>
+                <tr>
+                    <td>right</td>
+                    <td>Desloca o objeto para a esquerda. Necessita de um outro comando específicopara seu funcionamento</td>
+                </tr>
+                <tr>
+                    <td>top</td>
+                    <td>Define o quão para baixo ele vai, se usar números negativos ele irá subir.</td>
+                </tr>
+                <tr>
+                    <td>position</td>
+                    <td>Define o tipo de posicionamento que o objeto deve assumir. Necessário este comando para o <i>top</i>, <i>left</i> e o <i>right</i> funcionarem.</td>
+                </tr>
+                <tr>
+                    <td>trasition</td>
+                    <td>Cria uma transição no seu objeto.</td>
+                </tr>
+                <tr>
+                    <td>:hover</td>
+                    <td>Sua Sintaxe é diferente, ele não vai dentro das chaves, ele vai após sua <i>tag/id/class</i>. EX: <i>h1:hover{...}. Ele significa que quando o ponteiro do mouse estiver em cima do objeto, ele irá ter alguma mudança</td>
+                </tr>
+                <tr>
+                    <td>@font-face</td>
+                    <td>Serve para importar fontes dentro da memória interna, ou pelo link de um site. Ele usa o comando <i>src: url</i> para importar.</td>
+                </tr>
+            </tbody>
+        </table>
+            <p id="final">A partir daqui teremos comandos mais complexos e com Sintaxes um pouco mais complexas, um exemplo é o @media.</p>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;Direitos Reservados a Filipe Gomes</p>
+    </footer>
+
+    
+</body>
+</html>
