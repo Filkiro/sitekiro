@@ -2,7 +2,7 @@
     font-family: "Josefin Sans";
     src: url(../FONTS/JosefinSans-VariableFont_wght.ttf);
 }
-a{
+details a{
         color: rgb(0, 0, 0);
         background-color: white;
         border-radius: 5px;
