@@ -32,6 +32,16 @@ details a{
     background-color: #2e2f4d;
     border-radius: 8px; 
 }
+#logo{
+    margin-left: 0px;
+    height: 90px;
+    position: relative;
+    left: 50%;
+    
+    border-radius: 20px;
+    background-color: #212d36;
+    border: #0f1418 2px solid;
+}
 
 body{
     display: flex;
@@ -188,7 +198,22 @@ footer{
     border-radius: 8px; 
 }
 
-body{
+#logo{
+        top: -10px;
+        height: 90px;
+        position: relative;
+        margin: auto;
+        border-radius: 20px;
+        background-color: #212d36;
+        border: #0f1418 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+body{   
+    top: 10px;
+    position: relative;
     font-family: "Josefin Sans";
     justify-content: center;
     background-color: #161e24;
@@ -196,6 +221,7 @@ body{
     color: white;
 }
 header{
+
     margin: 10px 30px 10px 30px;
     display: flex;
     flex-wrap: wrap;
