@@ -127,7 +127,7 @@ summary{
     background-color: rgb(19, 24, 32);
 
     /*Efeito gradiente*/
-    background-image: linear-gradient(to right, rgb(24, 31, 43), rgb(23, 38, 63), rgb(27, 39, 59));
+    background-image: linear-gradient(to right, rgb(25, 34, 44), rgb(19, 31, 51), rgb(25, 34, 44));
 
     cursor: pointer;
     margin: 30px;
