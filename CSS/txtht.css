@@ -19,7 +19,14 @@
     border-radius: 8px; 
 }
 
-
+#logo{
+    position: relative;
+    left: 50%;
+    
+    border-radius: 20px;
+    background-color: #212d36;
+    border: #0f1418 2px solid;
+}
 body{
     /*background-image: linear-gradient(to right, #0f1418, #182833, #031627);*/
     background-color: #161e24;
@@ -56,7 +63,9 @@ main mark{
     border-radius: 4px;
 }
 @media screen and (orientation: landscape) {
-
+body .hr{
+    display: none;
+}
 header a{
     left: 30px;
     top: 24px;
@@ -104,7 +113,6 @@ footer hr{
     border: 2px solid gray;
 }
 
-
 @media (orientation: portrait){
     header mark{
         background-color:   rgba(255, 255, 255, 0.521);
@@ -124,7 +132,7 @@ footer hr{
         padding: 6px 5px 0px 6px;
         border-radius:  30px;
         border: 0px solid black;
-        transition: 0s;
+        transition: 0.5s;
     }
 
 }

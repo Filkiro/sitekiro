@@ -20,7 +20,15 @@
     background-color: #2e2f4d;
     border-radius: 8px; 
 }
-
+#logo{
+    display: flex;
+    position: absolute;
+    left: 39%;
+    
+    border-radius: 20px;
+    background-color: #212d36;
+    border: #0f1418 2px solid;
+}
 body{
     justify-content: center;
     display: flex;
