@@ -107,17 +107,11 @@ main{
     
 }
 #htm{
-    display: flex;
     width: auto;
     
 }
 #css{
-    
-    display: flex;
     width: auto;
-}
-details{
-    display: flex;
 }
 
 details h1{
